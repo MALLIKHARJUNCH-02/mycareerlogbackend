@@ -23,7 +23,7 @@ const Application = mongoose.model('Application', applicationSchema);
 
 // Setup Express app
 const app = express();
-aapp.use(cors({
+app.use(cors({
   origin: 'https://mycareerlogfrontend.vercel.app'
 }));
 
